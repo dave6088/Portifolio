@@ -32,8 +32,8 @@ export const profile = {
   email: "Dawitdave517@gmail.com",
   bio: "I build polished React products , reliable database-backed systems, and accessible interfaces for teams that care about speed, clarity, and details users can feel.",
   intro:
-    "Over the past seven years, I have helped businesses and product teams turn complex workflows into responsive, maintainable web applications with strong data foundations.",
-  availability: "Available for React frontend development, database administration, design systems, and product UI consulting.",
+    "Over the past few years, I have helped businesses and product teams turn complex workflows into responsive, maintainable web applications with strong data foundations.",
+  availability: "Available full stack web development, database administration, design systems, and product UI consulting.",
   socials: [
     { label: "GitHub", href: "https://github.com/dave6088", icon: FiGithub },
     { label: "LinkedIn", href: "https://www.linkedin.com", icon: FiLinkedin },
@@ -53,10 +53,10 @@ export const navLinks = [
 ];
 
 export const stats = [
-  { label: "Years experience", value: 7, suffix: "+" },
-  { label: "Projects shipped", value: 48, suffix: "+" },
-  { label: "Clients served", value: 26, suffix: "+" },
-  { label: "Certifications", value: 9, suffix: "" }
+  { label: "Years experience", value: 1, suffix: "+" },
+  { label: "Projects shipped", value: 3, suffix: "+" },
+  { label: "Clients served", value: 3, suffix: "+" },
+  { label: "Certifications", value: 3, suffix: "" }
 ];
 
 export const highlights = [
@@ -177,9 +177,9 @@ export const experience = [
 
 export const education = [
   {
-    degree: "BSc. Software Engineering",
-    institution: "African Leadership University",
-    year: "2018",
+    degree: "BSc. Computer Science",
+    institution: "St.Mary's University",
+    year: "2025",
     achievements: "Graduated with distinction; led the campus web guild and final-year product incubator."
   },
   {
