@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 760" role="img" aria-label="Professional portrait illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset=".55" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" x2="1">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="760" rx="56" fill="url(#bg)"/>
+  <circle cx="548" cy="112" r="118" fill="#ffffff" opacity=".12"/>
+  <circle cx="118" cy="656" r="152" fill="#5eead4" opacity=".15"/>
+  <path d="M180 638c24-112 84-178 180-178s156 66 180 178" fill="#f8fafc" opacity=".93"/>
+  <path d="M239 655c21-92 61-139 121-139s100 47 121 139" fill="url(#shirt)" opacity=".95"/>
+  <circle cx="360" cy="294" r="132" fill="#8b5e3c"/>
+  <path d="M237 287c10-106 74-165 164-151 59 9 96 42 111 100-60-9-122-32-176-72-24 49-58 87-99 123Z" fill="#111827"/>
+  <path d="M260 308c10 97 48 151 100 151s90-54 100-151c-65-7-116-28-154-63-12 26-27 47-46 63Z" fill="#a8754f"/>
+  <circle cx="311" cy="324" r="10" fill="#111827"/>
+  <circle cx="409" cy="324" r="10" fill="#111827"/>
+  <path d="M327 386c24 18 46 18 66 0" fill="none" stroke="#111827" stroke-linecap="round" stroke-width="10"/>
+  <path d="M270 556h180l-90 74-90-74Z" fill="#f8fafc"/>
+  <rect x="86" y="86" width="548" height="588" rx="42" fill="none" stroke="#ffffff" stroke-opacity=".22" stroke-width="2"/>
+</svg>

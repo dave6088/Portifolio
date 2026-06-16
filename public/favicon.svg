@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Dawit Shibru logo">
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+  <path d="M16 45V19h12c8 0 13 5 13 13s-5 13-13 13H16Zm8-7h4c4 0 5-3 5-6s-1-6-5-6h-4v12Z" fill="#5eead4"/>
+  <path d="M42 20h7v25h-7z" fill="#f8fafc"/>
+</svg>
