@@ -31,8 +31,8 @@ export const profile = {
   phone: "+251960883518",
   email: "Dawitdave517@gmail.com",
   bio: "Computer  Science Student passionate about building responsive websites, modern web applications, and database-driven systems using current web technologies",
-  intro:"I build clean and professional websites and web applications."
-  availability:     "Available for internships, freelance projects, junior developer roles, and web development opportunities.",
+  intro:"I build clean and professional websites and web applications.",
+  availability: "Available for internships, freelance projects, junior developer roles, and web development opportunities.",
   socials: [
     { label: "GitHub", href: "https://github.com/dave6088", icon: FiGithub },
     { label: "LinkedIn", href: "https://www.linkedin.com", icon: FiLinkedin },
