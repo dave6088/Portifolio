@@ -79,7 +79,7 @@ export const highlights = [
     text: "Learning modern tools and improving through projects.",
     icon: FiCheckCircle
   }
-]
+];
 export const skills = [
   {
     title: "Frontend",
