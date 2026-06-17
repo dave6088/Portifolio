@@ -53,7 +53,7 @@ export const navLinks = [
 
 export const stats = [
   { label: "Projects Completed", value: 6, suffix: "+" },
-  { label: "Tehnologies Learned, value: 3, suffix: "+" },
+  { label: "Tehnologies Learned", value: 3, suffix: "+" },
   { label: "Certificates", value: 3, suffix: "+" },
   { label: "Internship Experience", value: 3, suffix: "" }
 ];
@@ -79,7 +79,7 @@ export const highlights = [
     text: "Learning modern tools and improving through projects.",
     icon: FiCheckCircle
   }
-
+]
 export const skills = [
   {
     title: "Frontend",
