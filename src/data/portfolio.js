@@ -26,7 +26,7 @@ import studioPreview from "../assets/project-studio.svg";
 
 export const profile = {
   name: "Dawit Shibru",
-  role: "Full Stack wev Developer and Database Administrator",
+  role: "FullStack web Developer and Database Administrator",
   location: "Addis Ababa, Ethiopia",
   phone: "+251960883518",
   email: "Dawitdave517@gmail.com",
