@@ -1,4 +1,4 @@
-import {
+ import {
   FiActivity,
   FiAward,
   FiBriefcase,
@@ -17,53 +17,45 @@ import {
   FiServer,
   FiShield,
   FiStar,
-  FiTool
+  FiTool,
+  FiTwitter
 } from "react-icons/fi";
-
 import dashboardPreview from "../assets/project-dashboard.svg";
 import commercePreview from "../assets/project-commerce.svg";
 import studioPreview from "../assets/project-studio.svg";
 
 export const profile = {
   name: "Dawit Shibru",
-  role: "Full Stack Web Developer",
+  role: "Full Stack wev Developer and Database Administrator",
   location: "Addis Ababa, Ethiopia",
   phone: "+251960883518",
   email: "Dawitdave517@gmail.com",
-
-  bio:
-    "Recent Computer Science graduate passionate about building responsive websites, modern web applications, and database-driven systems using current web technologies.",
-
-  intro:
-    "I build clean and professional websites and web applications.",
-
-  availability:
-    "Available for internships, freelance projects, junior developer roles, and web development opportunities.",
-
+  bio: "Computer  Science Student passionate about building responsive websites, modern web applications, and database-driven systems using current web technologies",
+  intro:"I build clean and professional websites and web applications."
+  availability:     "Available for internships, freelance projects, junior developer roles, and web development opportunities.",
   socials: [
-    {
-      label: "GitHub",
-      href: "https://github.com/dave6088",
-      icon: FiGithub
-    },
-    {
-      label: "LinkedIn",
-      href: "https://www.linkedin.com",
-      icon: FiLinkedin
-    },
-    {
-      label: "Email",
-      href: "mailto:Dawitdave517@gmail.com",
-      icon: FiMail
-    }
+    { label: "GitHub", href: "https://github.com/dave6088", icon: FiGithub },
+    { label: "LinkedIn", href: "https://www.linkedin.com", icon: FiLinkedin },
+    { label: "Twitter", href: "https://twitter.com", icon: FiTwitter },
+    { label: "Email", href: "mailto:Dawitdave517@gmail.com", icon: FiMail }
   ]
 };
 
+export const navLinks = [
+  { label: "Home", href: "#home" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Projects", href: "#projects" },
+  { label: "Experience", href: "#experience" },
+  { label: "Services", href: "#services" },
+  { label: "Contact", href: "#contact" }
+];
+
 export const stats = [
   { label: "Projects Completed", value: 6, suffix: "+" },
-  { label: "Technologies Learned", value: 10, suffix: "+" },
-  { label: "Certificates", value: 2, suffix: "+" },
-  { label: "Internship Experience", value: 1, suffix: "+" }
+  { label: "Tehnologies Learned, value: 3, suffix: "+" },
+  { label: "Certificates", value: 3, suffix: "+" },
+  { label: "Internship Experience", value: 3, suffix: "" }
 ];
 
 export const highlights = [
@@ -87,48 +79,46 @@ export const highlights = [
     text: "Learning modern tools and improving through projects.",
     icon: FiCheckCircle
   }
-];
 
 export const skills = [
   {
     title: "Frontend",
     icon: FiCode,
     items: [
-      { name: "React", level: 80 },
-      { name: "JavaScript", level: 85 },
-      { name: "Tailwind CSS", level: 82 },
-      { name: "HTML / CSS", level: 90 }
+      { name: "React ", level: 96 },
+      { name: "JavaScript", level: 90 },
+      { name: "Tailwind CSS", level: 94 },
+      { name: "HTML/CSS", level: 86 }
     ]
   },
-
   {
     title: "Backend",
     icon: FiServer,
     items: [
-      { name: "Node.js", level: 70 },
-      { name: "Express.js", level: 68 },
-      { name: "Java", level: 72 },
-      { name: "PHP", level: 65 }
+      { name: "Node.js", level: 84 },
+      { name: "Python", level: 88 },
+      { name: "Java", level: 82 },
+      { name: "PHP", level: 78 }
     ]
   },
-
   {
     title: "Database",
     icon: FiDatabase,
     items: [
-      { name: "MySQL", level: 78 },
-      { name: "PostgreSQL", level: 70 },
-      { name: "MongoDB", level: 65 }
+      { name: "PostgreSQL", level: 78 },
+      { name: "MongoDB", level: 74 },
+      { name: "MySQL", level: 80 },
+      { name: "SQL Server", level: 82 }
     ]
   },
-
   {
     title: "Tools",
     icon: FiTool,
     items: [
-      { name: "Git / GitHub", level: 82 },
-      { name: "VS Code", level: 90 },
-      { name: "Figma", level: 70 }
+      { name: "Git / GitHub", level: 92 },
+      { name: "VS Code ", level: 93 },
+      { name: "Figma", level: 88 },
+      { name: "CI / Deployment", level: 81 }
     ]
   }
 ];
@@ -137,79 +127,42 @@ export const projects = [
   {
     title: "Task Management Dashboard",
     category: "Dashboard",
-
     image: dashboardPreview,
-
     description:
-      "A dashboard project for managing tasks and visualizing project progress.",
-
+      " A dashboard project for managing tasks and visualizing project progress.",
     tech: ["React", "Vite", "Tailwind"],
-
-    demo:
-      "https://dave6088.github.io/",
-
-    github:
-      "https://github.com/dave6088"
+    demo: "https://dave6088/Task_Manager",
+    github: "https://github.com/dave6088"
   },
-
   {
-    title: "E-Commerce Website",
-
+    title: "E-Commerce Website ",
     category: "Web Application",
-
     image: commercePreview,
-
     description:
-      "An online store interface with product listing and shopping features.",
-
-    tech: [
-      "React",
-      "Node.js",
-      "MySQL"
-    ],
-
-    demo:
-      "https://dave6088.github.io/",
-
-    github:
-      "https://github.com/dave6088"
+     "An online store interface with product listing and shopping features.",
+    tech: ["React", "MySQL", "Node.js", "PostgreSQL"],
+    demo: "https://dave6088.github.io/northstar-commerce/",
+    github: "https://github.com/dave6088/northstar-commerce"
   },
-
   {
-    title: "Personal Portfolio",
-
+    title: "Porrifolio website",
     category: "Website",
-
     image: studioPreview,
-
     description:
-      "A personal portfolio website to showcase skills and projects.",
-
-    tech: [
-      "React",
-      "Tailwind"
-    ],
-
-    demo:
-      "https://dave6088.github.io/",
-
-    github:
-      "https://github.com/dave6088"
+       "A personal portfolio website to showcase skills and projects.",
+    tech: ["React Router", "Framer Motion", "Tailwind", "Netlify"],
+    demo: "https://dave6088.github.io/luma-studio/",
+    github: "https://github.com/dave6088/luma-studio"
   }
 ];
 
 export const experience = [
   {
     company: "Personal Projects",
-
-    position:
-      "Frontend Developer",
-
-    duration:
-      "2025 - Present",
-
+    position: " Frontend Developer",
+    duration: "2026-present",
     responsibilities: [
-      "Built personal web applications using React.",
+  "Built personal web applications using React.",
       "Practiced responsive design and component structure.",
       "Integrated APIs and improved UI performance."
     ]
@@ -218,81 +171,28 @@ export const experience = [
 
 export const education = [
   {
-    degree:
-      "BSc in Computer Science",
-
-    institution:
-      "St. Mary's University",
-
-    year:
-      "2026",
-
-    achievements:
-      "Successfully completed undergraduate studies and developed academic and practical software projects."
+    degree: "BSc. Computer Science",
+    institution: "St.Mary's University",
+    year: "2026",
+    achievements:  "Successfully completed undergraduate studies and developed academic and practical software projects."
   },
-
   {
-    degree:
-      "Database Administration Certificate",
-
-    institution:
-      "Misrak Polytechnic College",
-
-    year:
-      "2024",
-
-    achievements:
-      "Studied database management, SQL, and administration fundamentals."
+    degree: "Database Administration Professional Certificate",
+    institution: "Misrak Politechnical college",
+    year: "2021",
+    achievements: "Completed SQL Server administration, backup strategy, query optimization, and security modules."
   }
 ];
 
 export const services = [
-  {
-    title:
-      "Web Development",
-
-    icon:
-      FiGlobe,
-
-    text:
-      "Building responsive websites and modern web applications."
-  },
-
-  {
-    title:
-      "Frontend Development",
-
-    icon:
-      FiCode,
-
-    text:
-      "Creating interactive user interfaces using React."
-  },
-
-  {
-    title:
-      "Database Design",
-
-    icon:
-      FiDatabase,
-
-    text:
-      "Designing and managing structured databases."
-  },
-
-  {
-    title:
-      "Website Maintenance",
-
-    icon:
-      FiBriefcase,
-
-    text:
-      "Updating and improving existing websites."
-  }
+  { title: "Web Development", icon: FiGlobe, text: "Production React apps, marketing sites, dashboards, and component systems." },
+  { title: "UI/UX Design", icon: FiFigma, text: "Interaction flows, polished interface design, and Figma-to-code execution." },
+  { title: "Database Design ", icon: FiCpu, text: "Frontend-heavy product engineering with API integration and robust state handling." },
+  { title: "Website Maintenance", icon: FiBriefcase, text: "Architecture audits, performance reviews, accessibility passes, and delivery planning." }
 ];
 
-export const testimonials = [];
+export const testimonials = [
+];
 
 export const achievements = [
   "Completed multiple personal web projects.",
@@ -301,77 +201,14 @@ export const achievements = [
 ];
 
 export const certifications = [
-  {
-    label:
-      "Database Administration",
-
-    icon:
-      FiDatabase
-  },
-
-  {
-    label:
-      "Frontend Development",
-
-    icon:
-      FiCode
-  }
+  { label: "Database Administration", icon: FiCode },
+  { label: "Frontend Development", icon: FiDatabase },
+  { label: "UX Accessibility Foundations", icon: FiAward }
 ];
 
 export const contactDetails = [
-  {
-    label:
-      "Email",
-
-    value:
-      profile.email,
-
-    href:
-      `mailto:${profile.email}`,
-
-    icon:
-      FiMail
-  },
-
-  {
-    label:
-      "Phone",
-
-    value:
-      profile.phone,
-
-    href:
-      `tel:${profile.phone.replaceAll(" ", "")}`,
-
-    icon:
-      FiPhone
-  },
-
-  {
-    label:
-      "Location",
-
-    value:
-      profile.location,
-
-    href:
-      "https://maps.google.com/?q=Addis+Ababa,Ethiopia",
-
-    icon:
-      FiMapPin
-  },
-
-  {
-    label:
-      "Status",
-
-    value:
-      "Open to opportunities",
-
-    href:
-      "#contact",
-
-    icon:
-      FiStar
-  }
+  { label: "Email", value: profile.email, href: `mailto:${profile.email}`, icon: FiMail },
+  { label: "Phone", value: profile.phone, href: `tel:${profile.phone.replaceAll(" ", "")}`, icon: FiPhone },
+  { label: "Location", value: profile.location, href: "https://maps.google.com/?q=Addis+Ababa,Ethiopia", icon: FiMapPin },
+  { label: "Rating", value: "5.0 client average", href: "#testimonials", icon: FiStar }
 ];
