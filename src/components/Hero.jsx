@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FiArrowDown, FiBriefcase, FiSend } from "react-icons/fi";
-import profileImage from "../assets/profile.svg";
+import profileImage from "../assets/Dave.jpg";
 import { profile, stats } from "../data/portfolio";
 import { fadeUp, staggerContainer } from "../utils/motion";
 import ButtonLink from "./ButtonLink";
