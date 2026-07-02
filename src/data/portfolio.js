@@ -20,9 +20,9 @@
   FiTool,
   FiTwitter
 } from "react-icons/fi";
-import dashboardPreview from "../assets/project-dashboard.svg";
-import commercePreview from "../assets/project-commerce.svg";
-import studioPreview from "../assets/project-studio.svg";
+import dashboardPreview from "../assets/Restaurant_Menu.png";
+import commercePreview from "../assets/Merkato_Store.png";
+import studioPreview from "../assets/Portifolio.png";
 
 export const profile = {
   name: "Dawit Shibru",
@@ -35,7 +35,7 @@ export const profile = {
   availability: "Available for internships, freelance projects,  developer roles, and web development opportunities.",
   socials: [
     { label: "GitHub", href: "https://github.com/dave6088", icon: FiGithub },
-    { label: "LinkedIn", href: "https://www.linkedin.com", icon: FiLinkedin },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/dawit-shibru-26a885323", icon: FiLinkedin },
     { label: "Twitter", href: "https://twitter.com", icon: FiTwitter },
     { label: "Email", href: "mailto:Dawitdave517@gmail.com", icon: FiMail }
   ]
@@ -55,12 +55,12 @@ export const stats = [
   { label: "Projects Completed", value: 6, suffix: "+" },
   { label: "Tehnologies Learned", value: 3, suffix: "+" },
   { label: "Certificates", value: 3, suffix: "+" },
-  { label: "Internship Experience", value: 3, suffix: "" }
+  { label: "Internship Experience", value: 1, suffix: "" }
 ];
 
 export const highlights = [
   {
-    title: "Frontend Development",
+    title: "FullStack Development",
     text: "Building responsive and user-friendly interfaces.",
     icon: FiLayers
   },
@@ -125,12 +125,12 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Task Management Dashboard",
+    title: "Restaurant Menu",
     category: "Dashboard",
     image: dashboardPreview,
     description:
-      " A dashboard project for managing tasks and visualizing project progress.",
-    tech: ["React", "Vite", "Tailwind"],
+      " A dashboard project for managing Restaurant Menu System.",
+    tech: ["React", "Vite", "Tailwind","Node.js","Express"],
     demo: "https://dave6088/Task_Manager",
     github: "https://github.com/dave6088"
   },
@@ -141,8 +141,8 @@ export const projects = [
     description:
      "An online store interface with product listing and shopping features.",
     tech: ["React", "MySQL", "Node.js", "PostgreSQL"],
-    demo: "https://dave6088.github.io/northstar-commerce/",
-    github: "https://github.com/dave6088/northstar-commerce"
+    demo: "https://dave6088.",
+    github: "https://github.com/dave6088"
   },
   {
     title: "Porrifolio website",
@@ -159,7 +159,7 @@ export const projects = [
 export const experience = [
   {
     company: "Personal Projects",
-    position: " Frontend Developer",
+    position: " FullStack Developer",
     duration: "2026-present",
     responsibilities: [
   "Built personal web applications using React.",
