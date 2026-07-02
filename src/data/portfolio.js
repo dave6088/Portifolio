@@ -85,19 +85,19 @@ export const skills = [
     title: "Frontend",
     icon: FiCode,
     items: [
-      { name: "React ", level: 96 },
-      { name: "JavaScript", level: 90 },
-      { name: "Tailwind CSS", level: 94 },
-      { name: "HTML/CSS", level: 86 }
+      { name: "React ", level: 82 },
+      { name: "JavaScript", level: 70 },
+      { name: "Tailwind CSS", level: 64 },
+      { name: "HTML/CSS", level: 90 }
     ]
   },
   {
     title: "Backend",
     icon: FiServer,
     items: [
-      { name: "Node.js", level: 84 },
-      { name: "Python", level: 88 },
-      { name: "Java", level: 82 },
+      { name: "Node.js", level: 70 },
+      { name: "Python", level: 70 },
+      { name: "Java", level: 90 },
       { name: "PHP", level: 78 }
     ]
   },
@@ -105,10 +105,10 @@ export const skills = [
     title: "Database",
     icon: FiDatabase,
     items: [
-      { name: "PostgreSQL", level: 78 },
+      { name: "PostgreSQL", level: 68 },
       { name: "MongoDB", level: 74 },
       { name: "MySQL", level: 80 },
-      { name: "SQL Server", level: 82 }
+      { name: "SQL Server", level: 90 }
     ]
   },
   {
