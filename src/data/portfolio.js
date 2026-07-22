@@ -23,6 +23,7 @@
 import dashboardPreview from "../assets/Restaurant_Menu.png";
 import commercePreview from "../assets/Merkato_Store.png";
 import studioPreview from "../assets/Portifolio.png";
+import campusGuardPreview from "../assets/campusGuardPreview.jpg"
 
 export const profile = {
   name: "Dawit Shibru",
@@ -153,7 +154,27 @@ export const projects = [
     tech: ["React Router", "Framer Motion", "Tailwind", "Netlify"],
     demo: "https://dave6088.github.io/luma-studio/",
     github: "https://github.com/dave6088/luma-studio"
-  }
+  },
+  {
+  title: "CampusGuard AI",
+  category: "Web Application",
+  image: campusGuardPreview,
+  description:
+    "An AI-powered smart laptop registration and verification system that streamlines campus security using OCR, QR codes, and intelligent search.",
+  tech: [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "OpenRouter AI",
+    "OCR",
+    "QR Code",
+    "Cloudinary"
+  ],
+  demo: "https://your-live-demo-link.com",
+  github: "https://github.com/dave6088/your-repository-name"
+}
 ];
 
 export const experience = [
